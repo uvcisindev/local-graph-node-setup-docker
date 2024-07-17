@@ -1,3 +1,9 @@
+This subgraph node setup has been cloned from the graph protocol's graph-node repository.
+The below steps given for the setup has already been written the the docker-compose file. (Change being the postgres user, password and database which must be created manually with postgres cli)
+For installation process of the tools (postgresql, IPFS etc), checkout the Prerequisites given below. 
+
+For Additional understanding details can also be found below
+
 # Graph Node
 
 [![Build Status](https://github.com/graphprotocol/graph-node/actions/workflows/ci.yml/badge.svg)](https://github.com/graphprotocol/graph-node/actions/workflows/ci.yml?query=branch%3Amaster)
