@@ -1,0 +1,2 @@
+/usr/lib/postgresql/14/bin/initdb -D .postgres -E UTF8 --locale=C
+/usr/lib/postgresql/14/bin/pg_ctl -D .postgres -l logfile start

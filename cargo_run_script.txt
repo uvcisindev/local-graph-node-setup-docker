@@ -1,0 +1,9 @@
+cargo run -p graph-node --release -- \
+  --postgres-url postgresql://graph_node:1234@0.0.0.0:5432/graph_node \
+  --ethereum-rpc PulseChain:https://rpc.pulsechain.com \
+  --ipfs 127.0.0.1:5001
+
+cargo run -p graph-node --release -- \
+  --postgres-url "postgresql://cis:download@0.0.0.0:5432/graph_node" \
+  --ethereum-rpc "PulseChain:https://rpc.pulsechain.com" \
+  --ipfs "127.0.0.1:5001"
