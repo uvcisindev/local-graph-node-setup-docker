@@ -19,7 +19,7 @@ services:
       postgres_pass: 1234
       postgres_db: cis
       ipfs: host.docker.internal:5001
-      ethereum: 'pulsechain:https://rpc.pulsechain.com'
+      ethereum: 'pulsechain:https://rpc.v4.testnet.pulsechain.com'
       GRAPH_LOG: info
   ipfs:
     image: ipfs/kubo:v0.17.0
