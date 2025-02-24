@@ -13,4 +13,4 @@ graph-chain-near = { path = "../../chain/near" }
 graph-chain-cosmos = { path = "../../chain/cosmos" }
 graph-chain-starknet = { path = "../../chain/starknet" }
 graph-chain-substreams = { path = "../../chain/substreams" }
-git-testament = "0.2.5"
+git-testament = "0.2.6"
